@@ -27,5 +27,17 @@ The links to the models are as follows:
 - Solution C Models: https://drive.google.com/drive/folders/1GVGIWOzFQ2x-bs3ymfae-dZtRbHThAun?usp=sharing
 
 Currently, the test.csv file is uploaded from our git repository, however, if you wish to test on another file, please upload manually and change paths accordingly.
+
+Another thing to note is that in order to train our models in Solution C, you will need to use the legacy version of TensorFlow, and the code to do this is in the first cell of **Group42_DemoCode_NLI_SolutionC.ipynb**
+
 ### Training Code 
 See **Group42_Training_NLI_SolutionB.ipynb** and **Group42_Training_NLI_SolutionC.ipynb** for the training code used to train our models. If this is to be run the development files will need to be uploaded and paths changed accordingly. 
+
+### Links to Data Sources & Code Bases
+
+GloVe embeddings downloaded from http://nlp.stanford.edu/data/glove.840B.300d.zip
+
+HuggingFace Base Models Used:
+- https://huggingface.co/FacebookAI/roberta-base
+- https://huggingface.co/google-t5/t5-base
+- https://huggingface.co/google/flan-t5-base
